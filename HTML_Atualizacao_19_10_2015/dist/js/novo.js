@@ -196,7 +196,7 @@ function obrigatorio(e) {
 		}
 		
 		//COMO ESTAMOS USANDO O CAMPO DO TIPO DATE, ELE JÁ NOS DÁ A DATA FORMATADA
-		/*if ( e.currentTarget.id == "dataJ" ) {
+		if ( e.currentTarget.id == "dataJ" ) {
 			var regexData = /^(0[1-9]|1\d|2[0-8]|29(?=-\d\d-(?!1[01345789]00|2[1235679]00)\d\d(?:[02468][048]|[13579][26]))|30(?!-02)|31(?=-0[13578]|-1[02]))\/(0[1-9]|1[0-2])\/([12]\d{3})$/;
 			if (!e.currentTarget.value.match(regexData)) { 
 				e.currentTarget.nextSibling.innerHTML 		= "Data Inválida!";
@@ -204,7 +204,7 @@ function obrigatorio(e) {
 				e.currentTarget.nextSibling.style.display 	= "block";
 				return true;
 			}
-		}*/
+		}
 	}	
 	
 	if ( err ) {
