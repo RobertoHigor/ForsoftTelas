@@ -32,14 +32,13 @@ html, body{
     color: #C1C0C0;
 }
 
-.seta2{
+.setad {
     width: 6px;
     height: 6px;
+    margin-top: 10px;
     color: #C1C0C0;
 	float:right;
-	margin-top: 10px;
 }
-
 
 * html #interface {
 	height: 100%; /* hack para IE6 que trata height como min-height */
@@ -68,7 +67,7 @@ html, body{
 	margin:0 auto;
 	position:relative;
 	margin-bottom:0;
-	color:#333333;
+	color:#3E3C3C;
 }
 element.style {
     margin-top: 17px;
@@ -124,7 +123,7 @@ element.style {
 /*MENU*/
 
 #header #darkBox{
-	height:170px;
+	height:206px;
 	background:rgba(0,0,0,0.9);
 	display:none;
 }
@@ -138,9 +137,10 @@ img.logo {
     margin-top: 15px;
 	margin-left:4px;
 }
+
 img.iconeMenu {
-    margin-top: 10px;
-	margin-right:4px;
+    margin-top: 1px;
+    margin-right: 4px;
 }
 .menu{
 	list-style-type:none;
@@ -170,6 +170,23 @@ img.iconeMenu {
 	left:-40px;
 	display:none;
 }
+/*SUBMENU*/
+.submenu {
+    position: absolute !important;
+    top: -28px !important;
+    left: 191px !important;
+    display: none !important;
+}
+
+.submenu li: hover  {
+	background-color:white;
+}
+
+.menu li ul li:hover > .submenu{
+	display:block !important;
+}
+/*FIM SUBMENU*/
+
 
 
 .menu li ul li{
@@ -206,9 +223,9 @@ label {
 }
 
 #formularioJ {
-	width:700px;
+	width:674px;
 	height:100%;
-	margin:0 auto;
+	margin:0 267px auto;
 	text-transform: none;
 	font-size:13px;
 }
@@ -240,8 +257,7 @@ input #dataJ .campoObrig {
 #formularioJ input{
     -webkit-border-radius: 5px;
     -moz-border-radius: 5px;
-	border-radius:5px;
-	
+	border-radius: 5px;
     border: 1px solid #c2c2c2;
     font-size: 16px;
     padding: 4px;
@@ -268,7 +284,7 @@ input #dataJ .campoObrig {
 
 #botoes {
 	text-align:center;
-	right: -102px;
+	right: -63px;
     position: relative;
 }
 

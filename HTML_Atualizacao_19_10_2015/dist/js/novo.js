@@ -152,7 +152,7 @@ function obrigatorio(e) {
 		}
 		
 		if ( e.currentTarget.id == "cepJ" ) {
-			var regexCep = /^\d+\-\d+$/;
+			var regexCep = /^\d+\.\d+\-\d+$/;
 			if (!e.currentTarget.value.match(regexCep)) { 
 				addMsgErro(e.currentTarget, "CEP")
 				return true;
@@ -195,7 +195,7 @@ function obrigatorio(e) {
 			}
 		}
 		
-		//COMO ESTAMOS USANDO O CAMPO DO TIPO DATE, ELE JÁ NOS DÁ A DATA FORMATADA
+		
 		if ( e.currentTarget.id == "dataJ" ) {
 			var regexData = /^(0[1-9]|1\d|2[0-8]|29(?=-\d\d-(?!1[01345789]00|2[1235679]00)\d\d(?:[02468][048]|[13579][26]))|30(?!-02)|31(?=-0[13578]|-1[02]))\/(0[1-9]|1[0-2])\/([12]\d{3})$/;
 			if (!e.currentTarget.value.match(regexData)) { 
@@ -299,6 +299,7 @@ var x = _gbc("tSpan");/*class de todas as tags span*/
 		fechar("darkBox");
 	}
 
+
 	/*FIM EFEITO MENU*/
 
 		//console.log(document.getElementByTagName("body"));
@@ -338,7 +339,7 @@ var x = _gbc("tSpan");/*class de todas as tags span*/
 		validaMasc("cpfJ", "###.###.###-##");
 		validaMasc("telJ", "## ####-####");
 		validaMasc("celJ", "## #####-####");
-		validaMasc("cepJ", "#####-###");
+		validaMasc("cepJ", "##.###-###");
 		validaMasc("cnpjJ", "##.###.###/####-##");
 		validaMasc("horaJ", "##:##:##");
 		validaMasc("dataJ", "##/##/####");
