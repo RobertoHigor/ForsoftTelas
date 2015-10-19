@@ -32,6 +32,14 @@ html, body{
     color: #C1C0C0;
 }
 
+.seta2{
+    width: 6px;
+    height: 6px;
+    color: #C1C0C0;
+	float:right;
+}
+
+*/
 * html #interface {
 	height: 100%; /* hack para IE6 que trata height como min-height */
 }
