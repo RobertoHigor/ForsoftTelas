@@ -298,9 +298,6 @@ var x = _gbc("tSpan");/*class de todas as tags span*/
 	_$("menu").onmouseout = function y(){
 		fechar("darkBox");
 	}
-	_$("trocarJ").onclick = function z(){
-		_$("logoo").src = "dist/imagens/logoo.png";
-	}
 
 	/*FIM EFEITO MENU*/
 
