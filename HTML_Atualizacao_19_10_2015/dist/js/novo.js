@@ -341,7 +341,7 @@ var x = _gbc("tSpan");/*class de todas as tags span*/
 		validaMasc("cepJ", "#####-###");
 		validaMasc("cnpjJ", "##.###.###/####-##");
 		validaMasc("horaJ", "##:##:##");
-		//validaMasc("dataJ", "##/##/####");
+		validaMasc("dataJ", "##/##/####");
 		validaMasc("kmJ", "#####");
 		validaMasc("rgJ","#");				
 		var placaJ = _$("placaJ");

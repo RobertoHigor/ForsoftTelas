@@ -240,6 +240,7 @@ input #dataJ .campoObrig {
 #formularioJ input{
     -webkit-border-radius: 5px;
     -moz-border-radius: 5px;
+	border-radius:5px;
 	
     border: 1px solid #c2c2c2;
     font-size: 16px;
