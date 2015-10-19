@@ -338,7 +338,7 @@ var x = _gbc("tSpan");/*class de todas as tags span*/
 		validaMasc("cpfJ", "###.###.###-##");
 		validaMasc("telJ", "## ####-####");
 		validaMasc("celJ", "## #####-####");
-		validaMasc("cepJ", "##.###-###");
+		validaMasc("cepJ", "#####-###");
 		validaMasc("cnpjJ", "##.###.###/####-##");
 		validaMasc("horaJ", "##:##:##");
 		//validaMasc("dataJ", "##/##/####");
