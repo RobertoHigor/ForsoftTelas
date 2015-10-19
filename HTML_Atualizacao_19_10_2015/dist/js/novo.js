@@ -152,7 +152,7 @@ function obrigatorio(e) {
 		}
 		
 		if ( e.currentTarget.id == "cepJ" ) {
-			var regexCep = /^\d+\.\d+\-\d+$/;
+			var regexCep = /^\d+\-\d+$/;
 			if (!e.currentTarget.value.match(regexCep)) { 
 				addMsgErro(e.currentTarget, "CEP")
 				return true;
